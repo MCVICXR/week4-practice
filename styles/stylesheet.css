@@ -10,8 +10,6 @@
     font-family: Georgia, "Times New Roman", serif, Myriad Pro;
     background-position: center;
     width: 100%;
-    height: auto;
-    margin: 0 auto;
   }
    
 /* end primary ignition */
@@ -28,44 +26,51 @@
     text-align: center;
     padding: 2.5rem 0rem 1rem 0rem;
   }
-  nav {
-    margin: 0 auto;
-
-  }
-  .nav {
-    background-color: #836ab1;
-    height: 2rem;
+  nav a {
+    text-decoration: none;
   }
   nav li {
-    width: 14.28571429%;
+    width: 14.01556253%;
+    height: 3rem;
     float: left;
     list-style: none;
     font-family: sans-serif;
-    font-weight: 700;
-    color: #ffffff;
     color: #836ab1;
-    text-decoration: none;
+    text-align: center;
+    border-right: solid .25rem #695195;
   }
+  nav li:last-child {
+    border-right: none;
+  }
+  nav li div {
+    background-color: #836ab1;
+    height: 3rem;
+  } 
+  nav p {
+    padding-top: 1rem;
+    color: #ffffff;
+    font-weight: 800;
+  }
+
 /* end header */
 
 /* start main body */
 
   aside {
-    width: 20%;
+    width: 21.5%;
     height: 40rem;
     float: left;
     background-color: #c0b3d4;
   }
-  div {
-    width: 80%;
-    height: 40rem;
-    float: right;
+  section div {
     background-color: #d6d8dd;
+    float: right;
+    width: 78.5%;
+    height: 40rem;
   }
-  div img {
+  img {
     width: 41%;
     height: 41%;
-    margin: auto;
   }
 
 /* end main body */
@@ -74,8 +79,9 @@
 
   footer {
     width: 100%;
-    height: 12rem;
+    height: 9rem;
     background-color: #ffffff;
+    clear: both;
   }
   footer li {
     float: left;
@@ -88,3 +94,4 @@
   }
 
 /* end footer */
+
