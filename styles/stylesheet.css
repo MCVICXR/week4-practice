@@ -98,9 +98,6 @@
     padding-top: 7rem;
     padding-bottom: 2rem;
   }
-  section p {
-    width: 
-  }
   section li {
     display: block;
     margin: auto;
@@ -123,10 +120,16 @@
   footer li {
     float: left;
     list-style: none;
+    margin: auto;
+    display: inline;
+    padding: 2.5rem 1.5rem 0rem 1.5rem;
+  }
+  footer li:first-child {
+    padding-left: 39%;
   }
   footer li img {
-    width: 50%;
-    height: 50%;
+    width: 65%;
+    height: 65%;
   }
 
 /* end footer */
