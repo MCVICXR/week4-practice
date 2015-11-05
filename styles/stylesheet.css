@@ -1,3 +1,90 @@
-h1 {
-  font-size: 2rem;
-}
+/* main css */
+
+/* commence primary ignition */
+
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  body { 
+    font-family: Georgia, "Times New Roman", serif, Myriad Pro;
+    background-position: center;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+   
+/* end primary ignition */
+
+/* start header */
+
+  header {
+    width: 100%;
+  }
+  h1 {
+    color: #836ab0;
+    font-size: 2.5rem;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 2.5rem 0rem 1rem 0rem;
+  }
+  nav {
+    margin: 0 auto;
+
+  }
+  .nav {
+    background-color: #836ab1;
+    height: 2rem;
+  }
+  nav li {
+    width: 14.28571429%;
+    float: left;
+    list-style: none;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+    color: #836ab1;
+    text-decoration: none;
+  }
+/* end header */
+
+/* start main body */
+
+  aside {
+    width: 20%;
+    height: 40rem;
+    float: left;
+    background-color: #c0b3d4;
+  }
+  div {
+    width: 80%;
+    height: 40rem;
+    float: right;
+    background-color: #d6d8dd;
+  }
+  div img {
+    width: 41%;
+    height: 41%;
+    margin: auto;
+  }
+
+/* end main body */
+
+/* start footer */
+
+  footer {
+    width: 100%;
+    height: 12rem;
+    background-color: #ffffff;
+  }
+  footer li {
+    float: left;
+    list-style: none;
+    margin: 0 auto;
+  }
+  footer li img {
+    width: 50%;
+    height: 50%;
+  }
+
+/* end footer */
