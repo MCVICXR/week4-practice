@@ -2,6 +2,10 @@
 
 /* commence primary ignition */
 
+  * {
+    box-sizing: border-box;
+  }
+
   html, body {
     max-width: 100%;
     overflow-x: hidden;
@@ -24,13 +28,13 @@
     font-size: 2.5rem;
     font-family: sans-serif;
     text-align: center;
-    padding: 2.5rem 0rem 1rem 0rem;
+    padding: 2.5rem 0rem 1.25rem 0rem;
   }
   nav a {
     text-decoration: none;
   }
   nav li {
-    width: 14.01556253%;
+    width: 14.28571429%;
     height: 3rem;
     float: left;
     list-style: none;
@@ -62,15 +66,48 @@
     float: left;
     background-color: #c0b3d4;
   }
+  aside li {
+    list-style: none;
+    margin: 0 auto;
+    display: block;
+    width: 25%;
+    padding-top: 2rem;
+  }
+  aside li:first-child {
+    padding-top: 7rem;
+  }
+  aside li a {
+    text-decoration: none;
+  }
+  aside p {
+    font-family: sans-serif;
+    color: #ffffff;
+    font-weight: 800;
+  }
   section div {
     background-color: #d6d8dd;
     float: right;
     width: 78.5%;
     height: 40rem;
   }
-  img {
-    width: 41%;
-    height: 41%;
+  section img {
+    width: 50%;
+    height: 50%;
+    display: block;
+    margin: auto;
+    padding-top: 7rem;
+    padding-bottom: 2rem;
+  }
+  section p {
+    width: 
+  }
+  section li {
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-size: .85rem;
+    font-family: sans-serif;
+    padding-bottom: .15rem;
   }
 
 /* end main body */
@@ -86,7 +123,6 @@
   footer li {
     float: left;
     list-style: none;
-    margin: 0 auto;
   }
   footer li img {
     width: 50%;
